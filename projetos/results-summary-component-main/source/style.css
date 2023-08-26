@@ -1,0 +1,162 @@
+body,
+h1,
+h2,
+p {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+body {
+  height: 700px;
+  background: hsl(221, 100%, 96%);
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  height: 700px;
+  justify-content: center;
+  align-content: center;
+}
+
+.borda {
+  border: 2px solid greenyellow;
+}
+
+.c-1 {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  align-items: start;
+  justify-items: center;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  text-align: center;
+}
+.c-1 h2 {
+  font-size: 24px;
+  color: #fff;
+}
+
+.c-1 h1 {
+  color: hsl(241, 100%, 89%);
+}
+
+.c-1 p {
+  color: #bab6fa;
+}
+
+.circle {
+  border-radius: 82%;
+  text-align: center;
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  height: 150px;
+  width: 150px;
+  text-align: center;
+}
+
+.p-76 {
+  font-size: 64px;
+  display: block;
+  color: #fff;
+  margin-top: 25px;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 500;
+}
+
+.p-of {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 700;
+  color: #8476fb;
+}
+
+.c-2 {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+  background: #fff;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.c-2 h1 {
+  color: #373d4d;
+}
+
+.icon-flex {
+  display: flex;
+  gap: 5px;
+}
+
+.icon-grid {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon-flex span {
+  place-self: center;
+}
+
+.icon-grid:nth-child(2) {
+  background: #fff6f5;
+  color: #dc6261;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.icon-grid:nth-child(3) {
+  background: #fffbf2;
+  color: #f3c163;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.icon-grid:nth-child(4) {
+  background: #f2fbfa;
+  color: #43aa90;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.icon-grid:nth-child(5) {
+  background: #f3f3fd;
+  color: #1d299a;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn-continue {
+  text-align: center;
+  padding: 10px;
+  color: #faf6ff;
+  border-radius: 20px;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  transition: 2.7s;
+}
+.icon-grid span {
+  color: #a6a5a3;
+}
+
+.btn-continue:hover {
+  background: #303a5a;
+}
+strong {
+  font-weight: 800;
+  color: #656c7e;
+}
+
+@media (max-width: 600px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
