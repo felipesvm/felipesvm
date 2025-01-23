@@ -4,6 +4,10 @@ Sou estudante do curso de Estudante de Engenharia de Controle e Automação com 
 
 ---
 
+##  📂 Meu Porfólio
+
+https://felipe-santos-porfolio.vercel.app/
+
 ## 🚀 Minhas Skills
 
 <code><img height="32" src="https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png" alt="c"/></code>
@@ -19,10 +23,6 @@ Sou estudante do curso de Estudante de Engenharia de Controle e Automação com 
 
 ---
 
-##  📂 Meu Porfólio
 
-https://felipe-santos-porfolio.vercel.app/
 
-## ⭐ GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=iuricode&show_icons=true)
