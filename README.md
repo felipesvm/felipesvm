@@ -1,4 +1,4 @@
-## 💜 Olá, meu nome é {Felipe Santos Souza}!
+## 💜 Olá, meu nome é Felipe Santos Souza!
 
 Sou estudante do curso de Estudante de Engenharia de Controle e Automação com forte interesse na área de ciência de dados, machine learning, deep learning, visão computacional e desenvolvimento de software.
 
